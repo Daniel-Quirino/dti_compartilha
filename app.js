@@ -19,7 +19,7 @@ app.get('/api/v1/pokemons/types', function(req, res) {
   mock = [...new Set(mock)];
 
   res.status(200).json({
-    pokemons: mock
+    types: mock
   })
 })
 
