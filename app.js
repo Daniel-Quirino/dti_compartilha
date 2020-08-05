@@ -1,8 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const cors = require('cors');
 const pokemonsMock = require('./mock_pokemon');
 
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/api/v1/pokemons/types', function(req, res) {
