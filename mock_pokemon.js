@@ -495,13 +495,13 @@ module.exports = [
         "name": "magnemite",
         "data": "https://pokeapi.co/api/v2/pokemon/81/",
         "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/81.svg",
-        "type": "water"
+        "type": "electric"
     },
     {
         "name": "magneton",
         "data": "https://pokeapi.co/api/v2/pokemon/82/",
         "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/82.svg",
-        "type": "water"
+        "type": "electric"
     },
     {
         "name": "farfetchd",
